@@ -40,7 +40,7 @@ document.getElementById("cashout-btn").addEventListener("click", function() {
       <div class="transaction-card p-5 bg-base-100">
         Cashout ${amount} successful from 
         ${bankAccount} (${cashoutNumberInput}) 
-        at ${new Date().toLocaleString()}
+        at  ${new Date()}
       </div>
     `;
 
