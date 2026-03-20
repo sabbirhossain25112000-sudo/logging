@@ -7,7 +7,7 @@ console.log("Login script loaded");
     const passwordInput = document.getElementById("input-pin");
     const password = passwordInput.value;
     console.log("Password entered:", password);
-    if (Number === "1234567890" && password === "1234") {
+    if (Number === "01234567891" && password === "1234") {
         alert("Login successful");
         window.location.assign("home.html");
     }
